@@ -101,7 +101,24 @@
       color: #0f172a;
       font-weight: bold;
     }
+    .download-cv {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 14px;
+      padding: 10px 16px;
+      background: #147c88;
+      color: #ffffff !important;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none !important;
+      transition: background-color .15s ease;
+    }
+    .download-cv:hover { background: #0d5864; }
+    .download-cv:focus-visible { outline: 3px solid #a5d8df; outline-offset: 3px; }
     @media print {
+      .download-cv { display: none; }
       body {
         background: none;
         padding: 0;
@@ -127,6 +144,7 @@
         LinkedIn: linkedin.com/in/renan-mulinari-silva<br>
         GitHub: github.com/renanmulinarixz
       </div>
+      <a class="download-cv" href="./curriculo-renan-mulinari.pdf" download="Curriculo_Renan_Mulinari.pdf" type="application/pdf" aria-label="Baixar currículo de Renan Mulinari em PDF">↓ Baixar currículo (PDF)</a>
     </div>
     <div class="section-title">PERFIL E OBJETIVO PROFISSIONAL</div>
     <p class="text-content">Estudante do Ensino Médio Técnico em Desenvolvimento Web e Mobile no COTEMIG e estagiário de Infraestrutura de TI na Diefra Engenharia. Tenho vivência em suporte, automação de processos e projetos colaborativos de tecnologia e inovação. Busco oportunidades de trabalho nas quais possa contribuir com soluções que integrem desenvolvimento, organização de informações e melhoria de processos, com iniciativa, responsabilidade e facilidade de comunicação.</p>
